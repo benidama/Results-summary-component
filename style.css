@@ -3,11 +3,14 @@
   margin: 0;
   padding: 0;
 }
+body{
+    font-family: 'Hanken+Grotesk', sans-serif;
+}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 445px;
+  height: 100vh;
   background-color: hsl(221, 100%, 96%);
 }
 .main {
@@ -115,10 +118,16 @@ button {
   background-color: hsl(224, 30%, 27%);
   text-align: center;
   height: 30px;
-  width: 100px;
+  width: 80px;
   margin-top: 10px;
 }
 a {
   color: white;
   text-decoration: none;
+}
+p {
+    font-size: 14px;
+}
+h5 {
+    padding-right: 45px;
 }
