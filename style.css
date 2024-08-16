@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -8,43 +13,112 @@
 .main {
   background-color: white;
   display: inline;
+  border-radius: 10px;
 }
 .first {
   background-color: hsla(256, 72%, 46%, 1);
   text-align: center;
   padding: 10px;
   justify-content: center;
-    padding-bottom: 10px;
-    color: white;
-    border-radius: 6px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 6px;
 }
 .second {
-  background-color: hsl(241, 100%, 89%);
+  background-color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 10px;
   justify-content: center;
-    padding-bottom: 10px;
-    
-    border-radius: 6px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 200px;
 }
 .mother {
   display: flex;
 }
-h6{
-    color: white;
+h6 {
+  color: rgba(255, 255, 255, 0.686);
 }
-#special{
-    border-radius: 50%;
-    background-color: hsl(241, 81%, 54%);
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    justify-content: center;
-    margin: 50px;
+#special {
+  border-radius: 50%;
+  background-color: hsl(241, 81%, 54%);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.hhh {
-    padding-top: 15px;
+h1 {
+  text-align: center;
 }
-.ppp{
-   text-align: center;
+.ppp {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.686);
+}
+.bigip {
+  color: rgba(255, 255, 255, 0.686);
+}
+.title {
+  color: rgb(15, 15, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.reaction {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(0, 100%, 67%, 0.078);
+  border-radius: 10px;
+  height: 35px;
+  font-size: 14px;
+}
+.visual {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(234, 85%, 45%, 0.051);
+  border-radius: 10px;
+  height: 35px;
+  font-size: 14px;
+}
+.memory {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(39, 100%, 56%, 0.064);
+  border-radius: 10px;
+  height: 35px;
+  font-size: 14px;
+}
+.verbal {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(166, 100%, 37%, 0.066);
+  border-radius: 10px;
+  height: 35px;
+  font-size: 14px;
+}
+button {
+  border-radius: 5px;
+  background-color: hsl(224, 30%, 27%);
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
